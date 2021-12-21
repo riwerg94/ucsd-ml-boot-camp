@@ -1,0 +1,8 @@
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/rivverg@gmail.com/Facilities.csv")
+df2 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/rivverg@gmail.com/Bookings.csv")
+df3 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/rivverg@gmail.com/Members.csv")
+
+
+dbfs:/FileStore/shared_uploads/rivverg@gmail.com/Facilities.csv
+dbfs:/FileStore/shared_uploads/rivverg@gmail.com/Bookings.csv
+dbfs:/FileStore/shared_uploads/rivverg@gmail.com/Members.csv
